@@ -70,7 +70,7 @@
           },
           "title": "WELCOME TO PATHS",
           "text": "Welcome to PATHS the website made<br>specially for you, we hope this website will be helpful to you<br>in one way or another.",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">COOKING</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">BILE GUIDES</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://Khanacademy.com\" data-toolbar=\"-mbrBtnMove\">SCHOOL</a>  "
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">COOKING</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">BIBLE GUIDES</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://Khanacademy.com\" data-toolbar=\"-mbrBtnMove\">SCHOOL</a>  "
         },
         {
           "_tags": [
