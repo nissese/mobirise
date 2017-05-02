@@ -3072,6 +3072,15 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
           "_anchor": "header2-2o",
           "_params": {
             "imageSize": 50,
@@ -3113,16 +3122,7 @@
           },
           "title": "Bible Cake",
           "text": "Ingredients<br>4 1/2 cuos &nbsp;1 Kings 4:22a<br>1 1/2 cups Proverbs 30:33<br>1 1/2 cups Judges 14:14<br>2 cups Isaiah 5:4 (dried)<br>2 cups Nahum 3:12<br>1 cup Numbers 17:8<br>1/2 cup 1 Corinthians 3:2<br>6 pieces Jeremiah 17:11<br>1 pinch Mark 9:50<br>2 teaspoons baking powder<br><br>Instructions<br>Take the Proverbs 30:33 and Judges 14:14 and Jeremiah 17:11 and<br>and do as King Solomon advises in Proverbs 23:14. Remove the seeds<br>of Nahum 3:12 and cut this plus the Isaiah 5:4 in small pieces. Peel and<br>chop Numbers 17:8. Mix well with 1 Kings 4:22 and Mark 9:50 and baking<br>powder. Combine with 1 Corinthians 3:2. Put the whole Romans 11:16 on a prepared bakking sheet. Put in Hosea 7:4 and cook<br>at 180 C for Matthew 20:12 or longer.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">COMPLETE</a>",
-          "_styles": {
-            ".mbr-section-text": {
-              "text-align": "left"
-            },
-            ".mbr-section-title": {
-              "text-align": "left",
-              "font-size": "20px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">COMPLETE</a>"
         }
       ]
     }
