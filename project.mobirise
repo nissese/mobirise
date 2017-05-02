@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 1,
+    "uniqCompNum": 97,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -41,7 +41,1577 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "46px"
+            }
+          },
           "_anchor": "header1-0",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "WELCOME TO PATHS",
+          "text": "Welcome to PATHS the website made<br>specially for you, we hope this website will be helpful to you<br>in one way or another, as the Bible says dash.",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">COOKING</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">BILE GUIDES</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://Khan Academy.com\" data-toolbar=\"-mbrBtnMove\">SCHOOLS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://Khan Academy.com\" data-toolbar=\"-mbrBtnMove\">HELP</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1d",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Paths"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Website Builder Title",
+        "meta_descr": "Website Builder Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "46px"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "I LOVE TO COOK",
+          "text": "This is the PATHS cooking guide in which<br>you will be given a one week guide, on any of the categories below.&nbsp;",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">BREAKFAST</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page20.html\" data-toolbar=\"-mbrBtnMove\">LUNCH</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page27.html\" data-toolbar=\"-mbrBtnMove\">SUPPER</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page28.html\" data-toolbar=\"-mbrBtnMove\">DESERT</a>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-2l",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/paths-213x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">NISSI PATHS</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "Web Site Maker Title",
+        "meta_descr": "Web Site Maker Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "46px"
+            }
+          },
+          "_anchor": "header1-2",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/plain-2000x1500.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "BIBLE GUIDE",
+          "text": "Welcome to the PATHS bible guide in wich you will be<br>taken through &nbsp;series of lessons for one week on the book of Peter",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page12.html\" data-toolbar=\"-mbrBtnMove\">BEGIN LESSONS</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "46px"
+            }
+          },
+          "_anchor": "header1-3",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/bool-2000x2000.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "BIBLE PLAN",
+          "text": "Welcom to the PATHS &nbsp;bible plan that will giude you on completion&nbsp;<br>of the bok of John",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">BEGIN PLAN</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1f",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">HOMEPAGE</a></li>"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "title": "Web Site Builder Title",
+        "meta_descr": "Web Site Builder Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-7",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/inde-2000x1204.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "BIBLE PLAN",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "P": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "23px"
+            },
+            "BLOCKQUOTE": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "23px"
+            },
+            "DIV": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "23px"
+            }
+          },
+          "_anchor": "content2-8",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Week 1</p><p><br></p><blockquote>&nbsp; Day 1 John 1:1-28</blockquote><blockquote> Day 2 John 1:29-51</blockquote><blockquote> Day 3 John 2:1-25</blockquote><blockquote> Day 4 John 3:1-21</blockquote><blockquote> Day 5 John 3:22-36</blockquote><blockquote> Day 6 John 4:1-26</blockquote><blockquote><p> Day 7 John 4:27-54</p><p><br></p></blockquote><blockquote><p>Week 2</p><p><br></p><p><br></p><p>&nbsp; Day 8 John 5:1-30</p></blockquote><blockquote> Day 9 John 5:31-6:14</blockquote><blockquote> Day 10 John 6:15-50</blockquote><blockquote> Day 11 John 6:60-7:9</blockquote><blockquote> Day 12 John 7:10-44</blockquote><blockquote> Day 13 John 7:45-8:20</blockquote><blockquote><p> Day 14 John 8:21-47</p><p><br></p><p><br></p><p>Week 3</p><p><br></p></blockquote><blockquote><p> Day 15 John 8:48-9:12</p></blockquote><blockquote> Day 16 John 9:13-41</blockquote><blockquote> Day 17 John 10:1-21</blockquote><blockquote> Day 18 John 10:22-11:16</blockquote><blockquote> Day 19 John 11:17-44</blockquote><blockquote> Day 20 John 11:45-12:19</blockquote><blockquote><p> Day 21 John 12:20-50</p><p><br></p><p><br></p><p>Week 4</p><p><br></p></blockquote><blockquote> Day 22 John 13:1-30</blockquote><blockquote> Day 23 John 13:31-14:18</blockquote><blockquote> Day 24 John 14:19-15:17</blockquote><blockquote> Day 25 John 15:18-16:24</blockquote><blockquote> Day 26 John 16:25-17:19</blockquote><blockquote> Day 27 John 17:20-18:11</blockquote><blockquote><p> Day 28 John 18:12-40</p><p><br></p><p><br></p><p>Last Three Days</p><p><br></p></blockquote><blockquote> Day 29 John 19:1-30</blockquote><blockquote> Day 30 John 19:31-20:18</blockquote><blockquote> Day 31 John 20:19-21:25</blockquote><p></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1g",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">COMPLETE</a>"
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "title": "Website Creator Title",
+        "meta_descr": "Website Creator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "font-size": "20px",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-9",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/blueberries-1400x932.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Blueberry Buttermilk Pancakes",
+          "text": "Serves: 6<br><br>Ingredients<br>• 1 1/2 cups soy flour<br>• 2 1/4 cups all purpose flour<br>• 3 tablespoons plus 2 teaspoon baking powder<br>• 1/4 cup sugar<br>• 1 1/2 teaspoons salt<br>• 3 eggs<br>• 3 cups vanilla soymilk<br>• 4 tablespoons vegetable oil<br>• 2 cups blueberries<br><br>Instructions<br>1. Mix soy flour, all-purpose flour, baking powder, sugar, salt, eggs, soy milk, oil and blueberries<br>until moistened.<br>2. Spray skillet or griddle with non-stick cooking spray. Skillet heat should be medium high; griddle<br>heat 350 degrees F.<br>3. Pour 1/2 cup pancake batter on griddle for each pancake. When top bubbles, flip to other side.<br>Cook until done throughout.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">NEXT</a>"
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "title": "Web Creator Title",
+        "meta_descr": "Web Creator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "font-size": "20px",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-a",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/banana-2000x1328.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/banana-1400x929.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Banana Oatmeal &nbsp;Waffels",
+          "text": "Serves: 6<br>Preparation Time: 15 min<br>Cooking Time: 20 min<br><br>Ingredients<br>• 4 tablespoons unsalted butter<br>• 1 cup old-fashioned oats (not instant)<br>• 1 cup all-purpose flour<br>• 1 tablespoon double-acting baking powder<br>• 1/2 teaspoon baking soda<br>• 1/4 teaspoon ground cinnamon<br>• grated nutmeg<br>• 3 tablespoons firmly packed brown sugar<br>• 1 1/2 cups buttermilk<br>• 2 large eggs<br>• 2 medium-size ripe bananas, thinly sliced crosswise<br>• maple syrup or honey, for topping<br><br>Instructions<br>1. Preheat your waffle iron. Melt the butter; reserve.<br>2. In a large bowl, whisk together the oats, flour, baking powder, baking soda, spices, and brown<br>sugar.<br>3. In another bowl, beat together the buttermilk and eggs with the whisk until well blended.&nbsp;<br>4. Pour the liquid ingredients over the dry ingredients and whisk until just combined. Mix in the<br>banana slices and melted butter.<br>5. Lightly butter or spray the grids of your iron, if needed. Brush or spray the grids again only if<br>subsequent waffles stick.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">PREVIOUS RECIPIE</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page6.html\" data-toolbar=\"-mbrBtnMove\">NEXT RECIPIE</a>"
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "title": "Web Maker Title",
+        "meta_descr": "Web Maker Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "header2-b",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/sparagus-1400x931.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Asparagus Egg Benedict",
+          "text": "Serves: 6<br>Preparation Time: 15 min<br>Cooking Time: 20 min<br><br>Ingredients<br>• 1/3 pound fresh asparagus<br>• 1/2 cup margarine<br>• 1/2 cup flour<br>• 3 cups milk<br>• 1 1/4 cups chicken broth<br>• 1/2 teaspoon salt<br>• 1/8 teaspoon cayenne pepper<br>• 1/3 cup shredded cheddar cheese<br>• 1/2 pound sliced ham, cubed<br>• 5 hard cooked eggs, quartered<br>• 4 English muffins<br><br>Instructions<br>1. Cup asparagus into 1/2 inch pieces. Cook in a small amount of water until it changes color<br>(about 2 minutes), drain and set aside.<br>2. Melt margarine in 3 quart sauce pan. Stir in flour until smooth.<br>3. Add broth, salt, cayenne pepper and bring to a boil; cook and stir for 2 minutes.<br>4. Add cheese, stir until it melts.<br>5. Add eggs, ham and asparagus. Heat through.<br>6. Serve over toasted English muffins. Serves 5-8 people<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">PREVIOUS RECIPIE</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page7.html\" data-toolbar=\"-mbrBtnMove\">NEXT RECIPIE</a>"
+        }
+      ]
+    },
+    "page7.html": {
+      "settings": {
+        "title": "Web Page Generator Title",
+        "meta_descr": "Web Page Generator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "header2-c",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/frittata-1400x1400.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Breakfast Frittata",
+          "text": "Serves: 4<br>Preparation Time: 10 min<br>Cooking Time: 30 min<br><br>Ingredients<br>• 2 tablespoons vegetable oil, divided<br>• 2 small red or green bell peppers, cut into strips (about 1 1/2 cups)<br>• 1/2 cup red onion strips<br>• 1/3 cup sliced green onion<br>• 6 small red-skinned potatoes, thinly sliced (about 1 1/2 cups)<br>• 4 egg whites<br>• 1 large egg or 2 1/2 ounces egg substitute<br>• 2 tablespoons skim milk<br>• 1/4 teaspoon salt<br>• Fresh parsley sprigs for garnish<br><br>Instructions<br>1. Preheat the broiler. In a 9 or 10-inch nonstick, heat-proof skillet, heat 1 teaspoon of oil over<br>medium heat.<br>2. Add bell peppers and red and green onion; sauté until vegetables begin to soften, about 4<br>minutes.<br>3. Add potatoes; cook until lightly browned, about 4 minutes.<br>4. In a medium bowl, whisk together egg whites, egg, milk, and salt. Add remaining oil to skillet<br>and reduce heat to low.<br>5. Pour in egg mixture. Cover and cook until eggs are set around edges but center is still loose,<br>about 8 minutes.<br>6. Using a rubber spatula, gently loosen egg mixture from sides of pan. Place skillet on the broiler<br>rack; broil 4 inches from heat until frittata is golden brown, about 1 minute.<br>7. Gently slide frittata onto a plate; cut into wedges. Garnish with parsley sprigs and serve.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page6.html\" data-toolbar=\"-mbrBtnMove\">PREVIOUS RECIPIE</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page8.html\" data-toolbar=\"-mbrBtnMove\">NEXT RECIPIE</a>"
+        }
+      ]
+    },
+    "page8.html": {
+      "settings": {
+        "title": "Site Builder Title",
+        "meta_descr": "Site Builder Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-d",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/potato-1400x1050.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Sweet Potato Biscuits",
+          "text": "Yields: 12<br>Cooking Time: 17 min<br><br>Ingredients<br>• 1 cup sifted bread flour<br>• 3 teaspoons baking powder<br>• 3/4 teaspoon salt<br>• 2 tablespoons butter<br>• 1 cup cooked mashed sweet potatoes<br>• cold milk to make a soft dough (depends on moisture content of potatoes)<br><br>Instructions<br>1. Heat oven to 450 degrees F.<br>2. Combine flour, baking powder and salt and sift into mixing bowl.<br>3. Cut in butter, rubbing it in with tips of fingers.<br>4. Add sweet potatoes, then 2 to 4 tablespoons of milk. Mix.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page7.html\" data-toolbar=\"-mbrBtnMove\">PREVIOUS RECIPIE</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page9.html\" data-toolbar=\"-mbrBtnMove\">NEXT RECIPIE</a>"
+        }
+      ]
+    },
+    "page9.html": {
+      "settings": {
+        "title": "Web Page Generator Title",
+        "meta_descr": "Web Page Generator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "header2-e",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/banana%20toast-2000x1303.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/banana-toast-1400x912.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Banana Batter French Toast",
+          "text": "Serves: 4<br>Preparation Time: 10 min<br>Cooking Time: 10 min<br><br>Ingredients<br>• 1 ripe banana, mashed<br>• 1 egg<br>• 1 egg white<br>• 1/4 cup milk<br>• 1/2 teaspoon vanilla<br>• 2 teaspoons vegetable oil<br>• 4 slices whole grain bread<br><br>Instructions<br>1. Beat the banana, egg, egg white, milk and vanilla together in a small bowl.<br>2. Warm the oil in a large non-stick skillet over medium high heat.<br>3. Dip each piece of bread into the batter, turning them to coat both sides. Fry until brown on both<br>sides. Serve with yogurt and fresh fruit, fruit syrup, etc.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page8.html\" data-toolbar=\"-mbrBtnMove\">PREVIOUS RECIPIE</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page10.html\" data-toolbar=\"-mbrBtnMove\">NEXT RECIPIE</a>"
+        }
+      ]
+    },
+    "page10.html": {
+      "settings": {
+        "title": "Web Builder Title",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "font-size": "20px",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-f",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/gallery2-1400x1050.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "INTRO WITH IMAGE",
+          "text": "<br>Serves 1<br><br>Ingredients<br>1 egg<br>1 small avocado<br>1/2 yellow pepper, deseeded and finely diced<br>1 spring onions, finely sliced<br>2 chives, finely chopped<br>1 small handful of coriander, finely chopped<br>1/2 lemon, juiced<br>Sea salt<br>Black pepper<br>1 tbsp Extra virgin olive oil<br>1 slice of granary bread, toasted<br><br>Instructions<br>1. Place the egg in a small pan of water set over a high heat and bring to the boil. Simmer<br>for 8 minutes then take the pan off the heat and place under cold tuning water to cool.<br>2. Once cooled (about 2 minutes), peel the shell from the egg. Quarter the egg.<br>3. Add the remaining ingredients (except the granary toast) to a medium-sized bowl and<br>combine well.<br>4. Serve the egg on a plate with the avocado mixture and granary toast.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page9.html\" data-toolbar=\"-mbrBtnMove\">PREVIOUS RECIPIE</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">COMPLETE</a>"
+        }
+      ]
+    },
+    "page12.html": {
+      "settings": {
+        "title": "Site Builder Title",
+        "meta_descr": "Site Builder Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-i",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Paths"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "25px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-k",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "DAY 1",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-m",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "If you were given a piece of paper that began, “Dear Sir,” you would<div>realize that you were reading a letter. And you would assume that the</div><div>letter came from somebody you probably weren’t close to.</div><div>Just as modern letters have a standard way to begin, so do ancient</div><div>letters. First Peter begins as any ancient letter would. It identifies the</div><div>author and those to whom it was sent.</div><div>Read 1 Peter 1:1. What can we learn from this one verse that helps to</div><div>give us a bit of context?</div><div>Peter clearly identifies himself. His name is the first word in the letter.</div><div>Yet, he immediately defines himself as “an apostle of Jesus Christ.”</div><div>Thus, as Paul often did (Gal. 1:1, Rom. 1:1, Eph. 1:1), Peter right away</div><div>establishes his “credentials,” emphasizing his divine calling. He was an</div><div>“apostle;” that is, “one sent,” and the One who sent him was the Lord</div><div>Jesus Christ.</div><div>Peter identifies a region where his letter was directed: Pontus,</div><div>Galatia, Cappadocia, Asia, and Bithynia. These are all regions in Asia</div><div>Minor, roughly equivalent to the part of modern Turkey east of the</div><div>Bosphorus.</div><div>Debate exists about whether Peter was writing mostly to Jewish</div><div>believers or to Gentile believers. The terms Peter used in 1 Peter 1:1,</div><div>sojourners/exiles and dispersion [diaspora] (NRSV), are terms that</div><div>naturally belong to Jews living outside of the Holy Land in the first</div>",
+          "text2": "century. The words chosen and sanctified in 1 Peter 1:2 are suited to<div>both Jews and Christians alike. Describing those outside of the community</div><div>as “Gentiles” (1 Pet. 2:12, 4:3) also underlines the Jewish character</div><div>of those to whom Peter writes.</div><div>Some commentators argue, in response, that what Peter says in</div><div>1 Peter 1:18 and 4:3 would be more appropriately said to Gentile converts</div><div>to Christianity than to Jewish ones. After all, would Peter really</div><div>have written to Jews about the “futile ways inherited from your ancestors”</div><div>(NRSV)? Or would he have said to Jewish readers, “For we have</div><div>spent enough of our past lifetime in doing the will of the Gentiles—</div><div>when we walked in lewdness, lusts, drunkenness, revelries, drinking</div><div>parties, and abominable idolatries” (1 Pet. 4:3, NKJV)?</div><div>What’s more crucial for us, though, isn’t so much who the audience was but, rather, what the message says.</div>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-n",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"page13.html\" data-toolbar=\"-mbrBtnMove\">NEXT STUDY</a>"
+        }
+      ]
+    },
+    "page13.html": {
+      "settings": {
+        "title": "Web Generator Title",
+        "meta_descr": "Web Generator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-o",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Paths"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "25px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-p",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "DAY 2",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-q",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Read 1 Peter 1:2. What else does this tell us about those to whom Peter</p><p>had been writing? What does he call them?</p><p><br></p><p>Whether writing to specifically Jewish or Gentile believers, Peter</p><p>was sure about one thing: they were “elect according to the foreknowledge&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">of God the Father” (1 Pet. 1:2).</span></p><p>Here, though, one needs to be careful. This does not mean that God</p><p>predestined some people to be saved and some to be lost, and as good&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">fortune would have it, the ones Peter was writing to happen to be some&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">of those chosen or elected by God for salvation, while others were chosen&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">by God to be lost. That’s not what the Bible teaches.</span></p><p><br></p><p>Read 1 Timothy 2:4, 2 Peter 3:9, John 3:16, and Ezekiel 33:11. How do</p><p>these verses help us to understand what Peter meant when he called</p><p>these people the “elect”?</p><p><br></p><p>Scripture makes it clear that it was God’s plan for everyone to be</p><p>saved, a plan instituted in their behalf even before the Creation of&nbsp;</p>",
+          "text2": "<p>the earth: “just as He chose us in Him before the foundation of the</p><p>world” (Eph. 1:4, NKJV). “All” are “elect” in the sense that God’s</p><p>original purpose was for everyone to be saved and no one to be lost.</p><p>He predestined all humanity for eternal life. This means that the</p><p>plan of salvation was adequate for everyone to be included in the</p><p>atonement, even if not everyone would accept what that atonement</p><p>offered him or her.&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">God’s foreknowledge of the elect is simply His knowing beforehand&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">what their free choice would be in regard to salvation. This foreknowledge&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">in no way forced their choice any more than a mother knowing&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">beforehand that her child will choose chocolate cake instead of green&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">beans meant that her foreknowledge of the choice forced the child to&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">make it.</span></p><p><br></p><p>What kind of assurance can you get from the encouraging truth</p><p>that God has chosen you to be saved?</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-r",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-warning-outline btn-warning\" href=\"page12.html\" data-toolbar=\"-mbrBtnMove\">PREVIOUS STUDY</a> <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"page14.html\" data-toolbar=\"-mbrBtnMove\">NEXT STUDY</a>"
+        }
+      ]
+    },
+    "page14.html": {
+      "settings": {
+        "title": "Site Builder Title",
+        "meta_descr": "Site Builder Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-s",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Paths"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "25px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-t",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "DAY 3",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-u",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Read 1 Peter 1:3–12. What is Peter’s main message in these verses?</p><p>In his greeting to his readers in 1 Peter 1:1, 2, </p><p>Peter already has mentioned&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">the Father, Son, and Holy Spirit (1 Pet. 1:2). The three members&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">of the Godhead form the subject of 1 Peter 1:3–12. The Father and the&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">Son are the topic of 1 Peter 1:3–9, and the Holy Spirit is prominent in&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">1 Peter 1:10–12.</span></p><p>As he writes about the Father and Son and the work of the Holy</p><p>Spirit, Peter introduces many of the themes that he will come back to.</p><p>Christians, Peter begins (1 Pet. 1:3; see also John 3:7), have been</p><p>born anew. Their whole lives have been transformed by Jesus’ resurrection&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">and the extraordinary inheritance that awaits Christians in heaven&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">1 Pet. 1:3, 4). Here, as in so many other places in the New Testament,</span></p><p>the resurrection of Jesus is key to the Christian hope.</p><p>This hope gives Christians a reason to rejoice, despite the fact that</p><p>many of those reading 1 Peter are suffering. This suffering tests and</p><p>refines their faith, just as fire tests and refines gold. Even though</p><p>Peter’s readers have not seen Jesus during His earthly ministry, they</p><p>love Him and believe in Him. And the outcome of their faith in Him</p>",
+          "text2": "<p>Makeis salvation and the promise of “an inheritance incorruptible and</p><p>undefiled and that does not fade away, reserved in heaven for you”</p><p>(1 Pet. 1:4, NKJV).</p><p>Peter also lets them know that the prophets of old had predicted the</p><p>“grace that would come to you” (1 Pet. 1:10). The prophets of the Old</p><p>Testament “inquired and searched” (1 Pet. 1:10, NKJV) about the salvation</p><p>that these people were now experiencing in Jesus.</p><p>As they suffer persecution for their faith, Peter points out that they</p><p>are part of a much wider conflict between good and evil. In the end, he</p><p>is seeking to help them stay faithful to the truth, even amid trials.</p><p><br></p><p>First Peter 1:4 says that there is an inheritance “reserved in</p><p>heaven for you.” Think about that on a personal level; there is a</p><p>specific place reserved in heaven just for you, personally. Then</p><p>how should you personally respond to this wonderful promise?</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-v",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-warning-outline btn-warning\" href=\"page13.html\" data-toolbar=\"-mbrBtnMove\">PREVIOUS STUDY</a> <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"page15.html\" data-toolbar=\"-mbrBtnMove\">NEXT STUDY</a>"
+        }
+      ]
+    },
+    "page15.html": {
+      "settings": {
+        "title": "Web Maker Title",
+        "meta_descr": "Web Maker Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-w",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Paths"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "25px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-x",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "DAY 4",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-y",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Read 1 Peter 1:13–21. According to this passage, what should motivate</p><p>Christian behavior?</p><p><br></p><p>The word therefore, which begins 1 Peter 1:13, NKJV, shows that</p><p>what Peter will say next grows out of what he had just said. As we saw</p><p>in yesterday’s study, Peter just had been talking about the grace of God</p><p>and the hope that Christians have in Jesus Christ (1 Pet. 1:3–12).</p><p>As a result of this grace and hope, Peter urges his readers to “gird</p><p>up the loins of your mind” (1 Pet. 1:13). That is, as a response to the</p><p>salvation that they have in Jesus, they must prepare their minds in order to<span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp;stand firm and be faithful (1 Pet. 1:13).</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></p><p>Read 1 Peter 1:13. What does it mean to rest your hope fully upon the</p><p>grace revealed in Jesus?</p><p><br></p><p>No question, Peter tells them their hope rests only in Jesus. But</p><p>he then emphasizes that a certain level of behavior is expected from</p><p>Christians as a consequence of their salvation. He notes three of the</p><p>great motivations that lie behind Christian behavior: the character of</p><p>God (1 Pet. 1:15, 16), the coming judgment (1 Pet. 1:17), and the cost</p>",
+          "text2": "<p>Makeof redemption (1 Pet. 1:17–21).</p><p>The first thing that will motivate Christian behavior is the character</p><p>of God. This character can be summed up this way: God is holy. Peter</p><p>quotes from Leviticus 11:44, 45 when he says, “Be ye holy; for I am</p><p>holy” (1 Pet. 1:16). Therefore those who follow Jesus must also be holy</p><p>(1 Pet. 1:15–17).</p><p>A second motivation for Christian behavior is found in the realization</p><p>that God, who is holy, will judge everyone impartially, according</p><p>to what each has done (1 Pet. 1:17).</p><p>A third motivation arises from the great truth that Christians are</p><p>redeemed. This means that they have been bought with a price, a very</p><p>high price: the precious blood of Christ (1 Pet. 1:19). Peter emphasizes</p><p>that the death of Jesus was not an accident of history but something</p><p>established before the foundation of the world (1 Pet. 1:20).</p><p><br></p><p>What motivates you to be a Christian? What would you answer,</p><p>and why, if someone asked you, Why are you a Christian?</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-z",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-warning-outline btn-warning\" href=\"page14.html\" data-toolbar=\"-mbrBtnMove\">PREVIOUS STUDY</a> <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"page16.html\" data-toolbar=\"-mbrBtnMove\">NEXT STUDY</a>"
+        }
+      ]
+    },
+    "page16.html": {
+      "settings": {
+        "title": "Web Generator Title",
+        "meta_descr": "Web Generator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-10",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Paths"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "25px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-11",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "DAY 5",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-12",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Peter next steers Christians to the ultimate expression of what living</p><p>a holy and faithful life will be like.</p><p><br></p><p>Read 1 Peter 1:22–25. What crucial point is he making here about</p><p>what it means to be a Christian?</p><p><br></p><p>Peter’s starting point is that Christians are already purified (“Seeing</p><p>ye have purified . . .”) and are living in obedience to the truth (1 Pet.</p><p>1:22). The verb “purify” or “cleanse” is closely related to the words</p><p>holy and holiness, which link back to what Peter wrote a few verses</p><p>earlier (1 Pet. 1:15). Through their commitment to Jesus, and through</p><p>their baptism (compare 1 Pet. 3:21, 22), Christians have purified themselves&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">by setting themselves aside for God, and they do this by obeying&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">the truth.</span></p><p>This change in their lives results in another change. They now find</p><p>themselves in a close relationship with others who share a similar</p><p>worldview. These relationships are so close that Peter uses the language&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">of family to describe them. Christians are to act out of brotherly&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">and sisterly love. The Greek word philadelphia used in 1 Peter 1:22,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">when he talks about the “love of the brethren,” means literally “love of&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">brother/sister.” It is the love that families have for one another.</span></p>",
+          "text2": "<p>There are several different words in Greek that are translated “love”:</p><p>philia (friendship), eros (the passionate love of a husband and wife),</p><p>agape (a pure love that seeks the good of the other). The word Peter</p><p>uses when he writes “love one another fervently” (1 Pet. 1:22, NKJV)</p><p>is linked to agape—which usually means the pure love that seeks the</p><p>good of others. That’s certainly why he added the phrase to love one</p><p>another “with a pure heart” (1 Pet. 1:22, NKJV), the kind of heart</p><p>that comes from being “born again” (1 Pet. 1:23; see also 1 Pet. 1:3)</p><p>through the incorruptible Word of God. This kind of love comes only</p><p>from God; it’s not what a selfish, self-centered, unregenerate heart will</p><p>manifest, which is surely why Peter puts such an emphasis on being</p><p>purified and on “obeying the truth” (1 Pet. 1:22). The truth is not just</p><p>something believed; it must be lived.</p><p><br></p><p>How can we learn to be more loving? What choices must we make</p><p>in order to be able to manifest the kind of love that comes from</p><p>a “pure heart”?&nbsp;</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-13",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-warning-outline btn-warning\" href=\"page15.html\" data-toolbar=\"-mbrBtnMove\">PREVIOUS STUDY</a> <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"page17.html\" data-toolbar=\"-mbrBtnMove\">NEXT STUDY</a>"
+        }
+      ]
+    },
+    "page17.html": {
+      "settings": {
+        "title": "Web Page Generator Title",
+        "meta_descr": "Web Page Generator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-14",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Paths"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "25px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-15",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "DAY 6&nbsp;",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-16",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Read 1 Peter 3:8–12. What point is Peter making here about how</p><p>Christians should live? What does he repeat that he already wrote</p><p>about in 1 Peter 2:20, 21?</p><p><br></p><p>Peter starts out telling them all to be of “one mind” (homophrones).</p><p>He’s not talking about uniformity, in the sense of everyone having to</p><p>think, do, and believe exactly the same way. The best example of this idea&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">is found in 1 Corinthians 12:1–26. In these verses, Paul points out that&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">the body is made up of parts. There are hands and eyes, but still together&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">each part makes up the whole body. In the same way, the church is made&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">up of individuals with different spiritual gifts. But all believers are joined&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">together with the same purpose and spirit. They work together to form a&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">united community.</span></p><p>Of course, such unity is not always so easy to achieve. The history of</p><p>the Christian church sadly has shown this fact to be true all too often.</p><p>So Peter warns believers against not agreeing with one another. Then he&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">tells his readers how they can show this Christian ideal of being united.&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">For example, Christians should act with sympathy (1 Pet. 3:8).</span></p><p>Sympathy means that when one Christian suffers, then others will suffer&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">with him or her; when another Christian rejoices, other Christians&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">will rejoice with him or her (compare 1 Cor. 12:26). Sympathy enables&nbsp;</span></p>",
+          "text2": "<p>us to see the perspective of others, an important step along the way to</p><p>unity. Peter then says we should “love one another” (1 Pet. 3:8, NIV).</p><p>Jesus Himself said that the way you can recognize His true disciples is</p><p>that they love one another (John 13:35). Furthermore, Peter says that</p><p>Christians will have a tender heart (1 Pet. 3:8). They will have compassion&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">for one another’s difficulties and failings.</span></p><p>“Crucify self; esteem others better than yourselves. Thus you will</p><p>be brought into oneness with Christ. Before the heavenly universe, and&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">before the church and the world, you will bear unmistakable evidence&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">that you are God’s sons and daughters. God will be glorified in the&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">example that you set.”—Ellen G. White, Testimonies for the Church,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">vol. 9, p. 188.</span></p><p><br></p><p>How often do we do what Peter says here, especially the part</p><p>about “not returning evil for evil” (1 Pet. 3:9, NKJV)? What</p><p>kind of death to self must we experience in order to follow these</p><p>words? How can we have that kind of death? (See Gal. 2:20.)</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-17",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-warning-outline btn-warning\" href=\"page16.html\" data-toolbar=\"-mbrBtnMove\">PREVIOUS STUDY</a> <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"page18.html\" data-toolbar=\"-mbrBtnMove\">NEXT STUDY</a>"
+        }
+      ]
+    },
+    "page18.html": {
+      "settings": {
+        "title": "Web Page Maker Title",
+        "meta_descr": "Web Page Maker Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-18",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Paths"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "25px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-19",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "DAY 7",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-1a",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Yes, Jesus died for our sins, and our hope of salvation is found</p><p>only in Him, in His righteousness, which covers us and causes us to</p><p>be accounted righteous in the eyes of God. Because of Jesus, you are</p><p>“accepted before God just as if you had not sinned.”—Ellen G. White,</p><p>Steps to Christ, p. 62.</p><p>But God’s grace doesn’t end just with a pronunciation, a declaration</p><p>that our sins are forgiven. God gives the power to overcome our sins,</p><p>as well.</p><p><br></p><p>Read 1 Peter 3:18, 21 and 1 Peter 4:1, 2, as well as Romans 6:1–11.</p><p>What is the link between suffering and victory over sin?</p><p><br></p><p>There is a small Greek word used in 1 Peter 3:18 that emphasizes the</p><p>comprehensive nature of Jesus’ sacrifice. It is the word hapax, which</p><p>means “once for all.” Peter uses hapax to emphasize the comprehensive&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">nature of the suffering of Jesus and His death for us.</span></p><p>The phrase “forasmuch then” in 1 Peter 4:1 links 1 Peter 4:1, 2 with what</p><p>has just been said in 1 Peter 3:18–22. In these earlier verses, Peter points&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">out that Christ suffered for our sins in order that He might bring us to God&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">(1 Pet. 3:18) and that “baptism doth also now save us” (1 Pet. 3:21).</span></p>",
+          "text2": "<p>Baptism, then, is perhaps the best context against which to understand&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">Peter’s words, “for he that hath suffered in the flesh hath ceased from&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">sin” (1 Pet. 4:1). By baptism, the Christian participates in the suffering&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">and death and resurrection of Jesus; the Christian has made a choice to&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">“live for the rest of [his or her] earthly life no longer by human desires&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">but by the will of God” (1 Pet. 4:2, NRSV). This can be accomplished&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">only by the daily surrender of self to the Lord and the crucifying of “the&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">flesh with its passions and desires” (Gal. 5:24, NKJV).</span></p><p>In Romans 6:1–11, Paul says that at baptism Christians are united</p><p>with Jesus in His death and resurrection. At baptism, we have died</p><p>to sin. We need now to make that death to sin real in our lives. Paul’s</p><p>words, “reckon ye also yourselves to be dead indeed unto sin, but alive&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">unto God through Jesus Christ our Lord” (Rom. 6:11), give the secret&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">of the Christian’s life.</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></p><p>When was the last time you found yourself “suffering in the</p><p>flesh” in order to fight against sin? What does your answer say</p><p>to you about your Christian life?</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1c",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-warning-outline btn-warning\" href=\"page17.html\" data-toolbar=\"-mbrBtnMove\">PREVIOUS STUDY</a> <a data-app-btn=\"true\" class=\"btn btn-info-outline btn-info\" href=\"page19.html\" data-toolbar=\"-mbrBtnMove\">COMPLETE</a>"
+        }
+      ]
+    },
+    "page19.html": {
+      "settings": {
+        "title": "Web Builder Title",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1d",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Paths"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1n",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">HOMEPAGE</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-1u",
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
@@ -61,9 +1631,1498 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "HELLO Daddy !!!",
+          "title": "FULL SCREEN INTRO",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        }
+      ]
+    },
+    "page20.html": {
+      "settings": {
+        "title": "Web Generator Title",
+        "meta_descr": "Web Generator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-1p",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Munchy Matoke",
+          "text": "Serves 2<br><br>Ingredients<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">NEXT RECIPIE</a>"
+        }
+      ]
+    },
+    "page21.html": {
+      "settings": {
+        "title": "Website Builder Title",
+        "meta_descr": "Website Builder Description"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1i",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">HOMEPAGE</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-1q",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Mixed Mboga",
+          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">PREVIOUS RECIPIE</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">NEXT RECIPIE</a>"
+        }
+      ]
+    },
+    "page22.html": {
+      "settings": {
+        "title": "Web Creator Title",
+        "meta_descr": "Web Creator Description"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1j",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">HOMEPAGE</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "header2-1r",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Chilli Con Carne<br>",
+          "text": "Serves 4<br>Preperation Time: 30 minutes<br>Cooking Time; 20 minutes<br><br>Ingredients<br>Fu.1lb/450g of lean minced&nbsp;beef/lamb<br>1 onion, finely chopped<br>1 medium carrot sliced<br>2 dessertspoons peas<br>5 mushrooms sliced<br>1 red pepper sliced<br>Blackpepper<br>1/2 tin tomatoes<br>1 teaspoon chilli powder<br>2 dessertspoons tomato&nbsp;sauce<br>1 clove of garlic<br>1/2 tin of kidney beans<br>or 1 tin of baked beans<br>1 dessertspoon of flour<br>1 low salt beef stock&nbsp;cube*<br>1/4 pt/150ml of water<br><br>Instructions<br>1 Chop onion and garlic. Dissolve beef stock cube in a 1/4 pt / 150ml of<br>boiling water.<br>2 Put minced beef / lamb in a dry frying pan. There is sufficient fat in<br>mince for frying. Cook for 20-25 minutes over a low heat until well<br>browned, stirring all the time. Drain off any excess fat from the pan.<br>3 Add onions and garlic to the pan and cook for 2 to 3 minutes.<br>Sprinkle on the flour and chilli powder blackpepper and cook for 1-2 minutes,&nbsp;stirring all the time.<br>4 Add beef stock, tomato sauce and tinned tomatoes. Bring to the boil.<br>5 Add kidney / baked beans, carrot, peas, mushrooms and pepper to the&nbsp;mince. Simmer for 20 minutes.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">PREVIOUS RECIPIE</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">NEXT RECIPIE</a>"
+        }
+      ]
+    },
+    "page23.html": {
+      "settings": {
+        "title": "Web Page Generator Title",
+        "meta_descr": "Web Page Generator Description"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1k",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">HOMEPAGE</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-1s",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Beef/Lamb Curry",
+          "text": "Serves 4<br>Preparation Time: 20 minutes<br>Cooking Time; 1/2 hours<br><br>Ingredients<br>F1lb/450g stewing&nbsp;beef/lamb<br>1 large onion chopped<br>1 clove of garlic&nbsp;chopped<br>2 dessertspoons curry&nbsp;powder<br>Blackpepper<br>Chilli (If desired)<br>1oz/25g flour<br>1 apple peeled and&nbsp;grated<br>1 low salt stock cube*<br>13/4 pt/1l of water<br><br>Instructions<br>1 Pre-heat the oven to 180°C / 350°F / Gas Mark 4.<br>2 Cut meat into one-inch pieces. Fry the meat, onion and garlic<br>over a low heat until the meat is brown on all sides.<br>3 Then place in a casserole dish.<br>4 Add flour and curry powderand blackpepper to the juices remaining in the pan.<br>5 Cook for 2-3 minutes.<br>6 Dissolve the stock cube in a 13/4pt / 1l of boiling water.<br>7 Add the stock and grated apple. Stir continuously to avoid lumps.<br>8 Bring to the boil and add to the meat mixture in the casserole dish.<br>9 Cook in the pre-heated oven for 11/2 hours until meat is tender.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">PREVIOUS RECIPIE</a>  <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">NEXT RECIPIE</a>"
+        }
+      ]
+    },
+    "page24.html": {
+      "settings": {
+        "title": "Website Creator Title",
+        "meta_descr": "Website Creator Description"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1l",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">HOMEPAGE</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "header2-1t",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Pork Casserole",
+          "text": "Serves 4<br>Preparation Time; 15 minutes<br>Cooking Time 1/2 hours<br><br>Ingredients<br>11/2 lbs/675g diced pork<br>1 small green pepper<br>1 dessertspoon of&nbsp;vegetable oil<br>1 onion peeled and&nbsp;chopped<br>6 mushrooms sliced<br>1 medium carrot&nbsp;chopped<br>1 teaspoon curry&nbsp;powder<br>pinch of salt if desired<br>1/2 teaspoon ground&nbsp;pepper<br>1oz/50g flour<br>1 tin of tomatoes<br>pinch of mixed herbs<br>1 low salt vegetable&nbsp;stock cube*<br>½ pt/275ml of warm&nbsp;water<br><br>Ingredients<br>1 Pre-heat the oven to 160°C / 325°F / Gas Mark 3.<br>2 Remove stalks and seeds from the green pepper and chop it up.<br>3 Heat the oil and fry the onion, green pepper, mushrooms for 3<br>minutes. Transfer them to a casserole dish.<br>4 Add the curry powder, salt and pepper to the flour, and coat<br>the pork in this mixture.<br>5 Dissolve the stock cube in a 1/2pt / 275ml of warm water.<br>6 Fry the coated pork for 5 minutes and then put into the casserole<br>dish. Add tomatoes, carrots, herbs and vegetable stock.<br>7 Cover tightly and cook in the pre-heated oven for 11/2 hours.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">PREVIOUS PAGE</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">NEXT PAGE</a>"
+        }
+      ]
+    },
+    "page25.html": {
+      "settings": {
+        "title": "Web Builder Title",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1m",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">HOMEPAGE</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-1v",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "BAKED STUFFED FISH",
+          "text": "Serves 4<br>Preparation Time: 20 minutes<br>Cooking Time: 30 minutes<br><br>Ingredients<br>8 small fish fillets<br>2 oz/60g brown<br>breadcrumbs (2 slices)<br>1 onion finely chopped<br>pinch of salt if desired&nbsp;pepper<br>1 tablespoon finely&nbsp;chopped parsley (or 1&nbsp;tablespoon dried&nbsp;parsley) or 1/4 teaspoon&nbsp;mixed herbs<br>1 teaspoon of&nbsp;vegetable oil<br>a little lemon juice (or&nbsp;grated rind)<br><br>Instructions<br>1 Pre-heat the oven to 180°C / 350°F / Gas Mark 4.<br>2 Clean and prepare fish. Dry in kitchen paper.<br>3 Mix breadcrumbs, chopped onion, parsley / mixed herbs, salt and<br>pepper, in a small bowl.<br>4 Heat oil and stir into crumb mixture. Finally add a little lemon&nbsp;rind or juice.<br>5 Lay 4 fillets on a greased dish, skin side down and spoon stuffing<br>carefully onto each fillet. Flatten well down and cover with the<br>other four fillets. Cover with foil.<br>6 Bake for 20-30 minutes, depending on size and thickness of fish.<br>7 Lift fish carefully on to a warmed serving dish and surround<br>with cooked peas, lemon wedges and parsley.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">PREVIOUS RECIPIE</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">NEXT RECIPIE</a>"
+        }
+      ]
+    },
+    "page26.html": {
+      "settings": {
+        "title": "Web Site Creator Title",
+        "meta_descr": "Web Site Creator Description"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1n",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\">HOMEPAGE</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-1w",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Vegetable Curry",
+          "text": "Serves 4<br>Preparation Time: 30 minutes<br>Cooking Time: 45 minutes<br><br>1 dessertspoon of&nbsp;vegetable oil<br>1 chopped onion<br>1 or 2 apples cored and&nbsp;peeled<br>2 dessertspoons curry&nbsp;powder<br>1 dessertspoon flour<br>pinch of salt if desired&nbsp;pepper<br>1 low salt vegetable&nbsp;stock cube*<br>1pt/575mls of boiling&nbsp;water<br>6 mushrooms sliced<br>1 red pepper deseeded&nbsp;and sliced<br>2oz/50g sultanas<br>1 medium carrot&nbsp;chopped<br>1 dessertspoon<br>dessicated coconut&nbsp;(optional)<br>1 teaspoon brown sugar<br>1 teaspoon lemon juice<br>1 tin of peas/beans<br>1 dessertspoon chutney&nbsp;(optional)<br><br>Instructions<br>1 Prepare the mixture of vegetables. Wash them and chop into<br>cubes. Place in a saucepan.<br>2 Add the apple, lentils, lemon juice, coconut, sultanas, brown<br>sugar and chutney. Add 3/4 pt / 425ml of stock and boil for 20 mins.<br>3 Heat the oil and fry the onion until it is soft.<br>4 Stir in the curry powder, flour and remainder of stock.<br>5 Bring to the boil. Add this to the mixed vegetables and season.<br>Add the peas/beans.<br>6 Simmer for 10 minutes. Reduce heat and cook slowly for<br>another 20 minutes. Add more stock if needed.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">PREVIOUS RECIPIE</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">NEXT RECIPIE</a>"
+        }
+      ]
+    },
+    "page27.html": {
+      "settings": {
+        "title": "Web Generator Title",
+        "meta_descr": "Web Generator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "header2-2c",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Greek Style Flank Steak with Tangy Yogurt Sauce",
+          "text": "Serves 4<br>Preparation Time: 25 minutes<br>Cooking Time: 25 minutes<br><br>Ingredients<br>1 beef flank steak (12 oz)<br>For marinade:<br>¼ C lemon juice<br>1 Tbsp olive oil<br>2 tsp fresh oregano, rinsed, dried,<br>and chopped (or ½ tsp dried)<br>1 Tbsp garlic, minced (about 2–3 cloves)<br>For yogurt sauce:<br>1 C cucumber, peeled, seeded,<br>and chopped<br>1 C nonfat plain yogurt<br>2 Tbsp lemon juice<br>1 Tbsp fresh dill, rinsed, dried, and<br>chopped (or 1 tsp dried)<br>1 Tbsp garlic, minced (about 2–3 cloves)<br>½ tsp salt<br><br>Instructions<br>1 For the marinade, combine lemon juice, olive oil,<br>oregano, and garlic in a large bowl.<br>2 Lay steak in a flat container with sides and pour<br>marinade over the steak. Let the steak marinate for at<br>least 20 minutes or up to 24 hours, turning several times.<br>3 Combine all the ingredients for the yogurt sauce.<br>Set yogurt sauce aside for at least 15 minutes to<br>blend flavors. (Sauce can be prepared up to 1 hour<br>in advance and refrigerated.)<br>4 Preheat oven broiler on high temperature, with the<br>rack 3 inches from heat source.<br>5 Broil steak for about 10 minutes on each side (to a<br>minimum internal temperature of 145 ºF). Let cool<br>for 5 minutes before carving.<br>6 Slice thinly across the grain into 12 slices<br>(1 ounce each).*<br>7 Serve three slices of the steak with ½ cup yogurt<br>sauce on the side.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-2d",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Mediterian Kabobs",
+          "text": "Serves 4<br>Preparation Time: 15 minutes<br>Cooking Time; 10 minutes<br><br>Ingredients<br>For marinade:<br>2 Tbsp olive oil<br>1 Tbsp garlic, minced (about 2–3 cloves)<br>2 Tbsp lemon juice<br>1 Tbsp fresh parsley, rinsed, dried, and<br>chopped (or 1 tsp dried)<br>½ tsp salt<br>For kabobs:<br>6 oz top sirloin or other beef steak<br>cubes (12 cubes)<br>6 oz boneless, skinless chicken breast,<br>cut into ¾-inch cubes (12 cubes)<br>1 large white onion, cut into<br>¾-inch squares (12 pieces)<br>12 cherry tomatoes, rinsed<br>1 (4 oz) red bell pepper, rinsed<br>and cut into ¾-inch squares<br>(12 squares)<br>12 wooden or metal skewers, each<br>6 inches long (if wood, soak<br>them in warm water for 5–10<br>minutes to prevent burning)<br><br>Instructions<br>1 Preheat grill pan or oven broiler (with the rack<br>3 inches from heat source) on high temperature.<br>2 Combine ingredients for marinade, and divide<br>between two bowls (one bowl to marinate the raw<br>meat and one bowl for cooking and serving).<br>3 Mix the beef, chicken, onion, tomatoes, and red<br>pepper cubes in one bowl of the marinade and let<br>sit. After 5 minutes, discard remaining marinade.<br>4 Place one piece of beef, chicken, tomato, onion,<br>and red pepper on each of the 12 skewers.<br>5 Grill or broil on each of the four sides for<br>2–3 minutes or until completely cooked (to a<br>minimum internal temperature of 145 °F for beef<br>and 165 °F for chicken). Spoon most of the second<br>half of the marinade over the kebabs while cooking.<br>6 Serve three skewers per serving. Drizzle the<br>remaining marinade on top of each kebab before<br>serving (use only the marinade that did not touch<br>the raw meat or chicken).",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "text-align": "left",
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "header2-2e",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Grilled Tuna with Chickpea and Tuna Salad",
+          "text": "Serves 4<br>Preparation Time: 25 minutes<br>Cooking Time: 20 minutes<br><br>Ingredients<br>1 Tbsp olive or canola oil<br>1 Tbsp garlic, minced (about 2–3 cloves)<br>2 Tbsp lemon juice<br>1 Tbsp oregano, minced (or 1 tsp dried)<br>12 oz tuna steaks, cut into 4 portions<br>(3 oz each)<br>For salad:<br>½ can (15½ oz) low-sodium chickpeas<br>(or garbanzo beans), drained<br>and rinsed<br>½ bag (10 oz) leaf spinach, rinsed and<br>dried<br>1 Tbsp lemon juice<br>1 medium tomato, rinsed and cut<br>into wedges<br>1/8 tsp salt<br>1/8 tsp ground black pepper<br><br>Instructions<br>1 Preheat grill pan or oven broiler (with the rack<br>3 inches from heat source) on high temperature.<br>2 Combine oil, garlic, lemon juice, and oregano, and<br>brush over tuna steaks. Marinate for 5–10 minutes.<br>3 Meanwhile, combine all salad ingredients. (Salad can<br>be made up to 2 hours in advance and refrigerated.)<br>4 Grill or broil tuna on high heat for 3–4 minutes on<br>each side until the flesh is opaque and separates<br>easily with a fork (to a minimum internal temperature<br>of 145 °F).<br>5 Serve one tuna steak over 1 cup of mixed salad.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-2f",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Edamame Stew",
+          "text": "Serves 4<br>Preparation Time: 20 minutes<br>Cooiking Time; 20 minutes<br><br>1 bag (16 oz) frozen shelled edamame<br>(green soybeans)*<br>1 can (35 oz) no-salt-added<br>Italian whole peeled tomatoes<br>with basil, diced into small<br>chunks<br>2 C zucchini, rinsed, quartered, and<br>sliced<br>1 C yellow onion, diced<br>1 Tbsp olive oil<br>1 Tbsp ground cumin<br>¼ tsp ground cayenne pepper<br>½ tsp ground allspice (or substitute<br>cinnamon or pumpkin pie spice)<br>2 Tbsp garlic, minced or pressed<br>(about 5 cloves)<br>1 C frozen yellow corn<br>¼ tsp salt<br>2 Tbsp lemon juice (or 1 large lemon,<br>freshly juiced)<br>½ tsp dried oregano<br><br>Instructions<br>1 Place frozen edamame in a deep saucepan with<br>just enough water to cover. Bring to a boil over high<br>heat. Reduce heat to medium and cover. Cook for<br>5 minutes. Drain. Set aside.<br>2 While soybeans cook, chop tomatoes, zucchini,<br>and onion.<br>3 In a large nonstick sauté pan, cook onion in olive oil<br>over medium heat until soft, about 5 minutes.<br>4 Stir in cumin, cayenne pepper, and allspice (or<br>cinnamon/pumpkin pie spice). Cook and stir for<br>about 2 minutes.<br>5 Add garlic. Cook and stir for 1 minute.<br>6 Stir in the drained edamame, tomatoes, zucchini,<br>corn, and salt.<br>7 Cover. Simmer until zucchini is tender, about<br>15 minutes.<br>8 Stir in lemon juice and oregano.<br>9 Serve immediately.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-2g",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Chicken Creole",
+          "text": "Serves 4<br>Preparation Time: 15 minutes<br>Cooking Time: 20 minutes<br><br>12 oz boneless, skinless chicken<br>breast, cut into thin strips<br>1 C canned whole peeled<br>tomatoes, chopped<br>1 C chili sauce (look for lowest<br>sodium version)<br>1½ C green bell pepper, rinsed and<br>chopped<br>1½ C celery, rinsed and chopped<br>¼ C onion, chopped<br>1 Tbsp garlic, minced (about 2–3 cloves)<br>1 Tbsp fresh basil, rinsed, dried, and<br>chopped (or 1 tsp dried)<br>1 Tbsp fresh parsley, rinsed, dried, and<br>chopped (or 1 tsp dried)<br>¼ tsp crushed red pepper<br>¼ tsp salt<br>Cooking spray<br><br>Instructons<br>1 Spray sauté pan with cooking spray. Preheat over<br>high heat.<br>2 Cook chicken in hot sauté pan, stirring for<br>3–5 minutes. Reduce heat.<br>3 Add tomatoes with juice, chili sauce, green pepper,<br>celery, onion, garlic, basil, parsley, crushed red<br>pepper, and salt. Bring to a boil over high heat, and<br>then reduce heat to simmer.<br>4 Simmer, covered, for 10 minutes.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-2h",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "INTRO WITH IMAGE",
+          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-2i",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "INTRO WITH IMAGE",
+          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1d",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Paths"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-2j",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">BACK TO RECIPIE</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">BACK TO HOMEPAGE</a>"
+        }
+      ]
+    },
+    "page28.html": {
+      "settings": {
+        "title": "Site Maker Title",
+        "meta_descr": "Site Maker Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2m",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Paths"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-2o",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Bible Cake",
+          "text": "Ingredients<br>4 1/2 cuos &nbsp;1 Kings 4:22a<br>1 1/2 cups Proverbs 30:33<br>1 1/2 cups Judges 14:14<br>2 cups Isaiah 5:4 (dried)<br>2 cups Nahum 3:12<br>1 cup Numbers 17:8<br>1/2 cup 1 Corinthians 3:2<br>6 pieces Jeremiah 17:11<br>1 pinch Mark 9:50<br>2 teaspoons baking powder<br><br>Instructions<br>Take the Proverbs 30:33 and Judges 14:14 and Jeremiah 17:11 and<br>and do as King Solomon advises in Proverbs 23:14. Remove the seeds<br>of Nahum 3:12 and cut this plus the Isaiah 5:4 in small pieces. Peel and<br>chop Numbers 17:8. Mix well with 1 Kings 4:22 and Mark 9:50 and baking<br>powder. Combine with 1 Corinthians 3:2. Put the whole Romans 11:16 on a prepared bakking sheet. Put in Hosea 7:4 and cook<br>at 180 C for Matthew 20:12 or longer.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">COMPLETE</a>",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "20px"
+            }
+          }
         }
       ]
     }
