@@ -23,7 +23,9 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 97,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/paths-128x76-1.png",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
