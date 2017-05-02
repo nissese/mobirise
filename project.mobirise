@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NewSite-04-30_2342",
-    "currentPage": "page1.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -259,7 +259,7 @@
             "showButtons": true
           },
           "title": "BIBLE GUIDE",
-          "text": "Welcome to the PATHS bible guide in wich you will be<br>taken through &nbsp;series of lessons for one week on the book of Peter",
+          "text": "Welcome to the PATHS bible guide in wich you will be<br>taken through &nbsp;series of lessons for one week on the book of Peter.",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page12.html\" data-toolbar=\"-mbrBtnMove\">BEGIN LESSONS</a>"
         },
         {
@@ -293,7 +293,7 @@
             "showButtons": true
           },
           "title": "BIBLE PLAN",
-          "text": "Welcom to the PATHS &nbsp;bible plan that will giude you on completion&nbsp;<br>of the bok of John",
+          "text": "Welcom to the PATHS &nbsp;bible plan that will giude you on completion&nbsp;<br>of the book of John.",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">BEGIN PLAN</a>"
         },
         {
