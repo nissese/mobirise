@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NewSite-04-30_2342",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -132,7 +132,7 @@
           },
           "title": "I LOVE TO COOK",
           "text": "This is the PATHS cooking guide in which<br>you will be given a one week guide, on any of the categories below.&nbsp;",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">BREAKFAST</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page20.html\" data-toolbar=\"-mbrBtnMove\">LUNCH</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page27.html\" data-toolbar=\"-mbrBtnMove\">SUPPER</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page28.html\" data-toolbar=\"-mbrBtnMove\">DESERT</a>"
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">BREAKFAST</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page20.html\" data-toolbar=\"-mbrBtnMove\">LUNCH</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page27.html\" data-toolbar=\"-mbrBtnMove\">DINNER</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"page28.html\" data-toolbar=\"-mbrBtnMove\">DESERT</a>"
         },
         {
           "_styles": {
